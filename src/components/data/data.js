@@ -4,8 +4,8 @@ export const projects = [
     description: "aqui vemos otra forma mas de como ordenar colocar y usar los distintos componentes",
     image: "../assets/proyectoComponentes.png",
     tech: ["HTML5", "CSS3", "JavaScript", "VITE",],
-    github: "https://github.com/IgnacioP46/Proyecto-Web-Componente.git",
-    link: "https://webasincrona.netlify.app/",
+    github: "https://github.com/IgnacioP46/proyecto-web-componentes.git",
+    link: "",
     tipo: "Proyecto"
   },
   {
