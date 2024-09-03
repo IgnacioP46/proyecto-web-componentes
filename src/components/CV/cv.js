@@ -6,7 +6,7 @@ export const CV = () => {
     const main = document.querySelector("main");
     main.innerHTML = `
         <div class="aboutme" id="aboutme">
-            <img class="imagen" src="../public/assets/miFotoCV.png" alt="miFotoCV">
+            <img class="imagen" src="./public/assets/miFotoCV.png" alt="miFotoCV">
             <div class="skills">
             <h2>Skills</h2>
             <ul>
