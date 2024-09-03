@@ -103,7 +103,7 @@ export const CVInfo = {
     { Portfolio: "https://ignacioperez.netlify.app" }
   ],
 
-  foto: "./public/assets/miFotoCV.png"
+  foto: "./assets/miFotoCV.png"
 };
 
 export default CVInfo;
