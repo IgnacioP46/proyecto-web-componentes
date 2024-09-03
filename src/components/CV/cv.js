@@ -1,4 +1,4 @@
-import "../CV/CV.css"
+import "../CV/cv.css"
 import { CVInfo, projects } from "../data/data";
 import { ProjectCard } from "../cards/cards";
 
