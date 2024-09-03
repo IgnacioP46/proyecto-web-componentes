@@ -41,7 +41,7 @@
 </div>
 `,l=()=>{const o=document.querySelector("main");o.innerHTML=`
         <div class="aboutme" id="aboutme">
-            <img class="imagen" src="/assets/miFotoCV-DHSWgIuS.png" alt="miFotoCV">
+            <img class="imagen" src="/assets/miFotoCV.png" alt="miFotoCV">
             <div class="skills">
             <h2>Skills</h2>
             <ul>
