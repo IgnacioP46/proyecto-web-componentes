@@ -1,9 +1,16 @@
 import "../header/header.css"
 
+document.body.className = localStorage.getItem("theme") || "";
+
 export const cambioTema = () => {
   const cambioColor = document.querySelector("#cambioColor");
   cambioColor.addEventListener("click", () => {
     document.body.classList.toggle("light");
+    if (document.body.className === "light"){
+      localStorage.setItem("theme", "light");
+    } else {
+      localStorage.setItem("theme", "")
+    }
     cambioTexto();
   });
 };
