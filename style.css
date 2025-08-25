@@ -1,0 +1,40 @@
+:root {
+  --body-bg-color-dark: #000000;
+  --body-bg-color-light: #c4d1d5;
+  --body-color-light: #dd2525;
+  --body-color-dark: #ecf000;
+  --border-color-light: 3px solid  #ecf000;
+  --border-color-dark: 3px solid #dd2525;
+  --hover-color: blue;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--body-bg-color-dark);
+  color: var(--body-color-dark);
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  margin-top: 200px;
+}
+
+.light {
+  background-color: var(--body-bg-color-light);
+  color: var(--body-color-light);
+  border: 3px solid var(--border-color-light);
+}
+

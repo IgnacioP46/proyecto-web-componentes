@@ -1,0 +1,10 @@
+.Button {
+    border-radius: 8px;
+    border: none;
+    background-color:var(--body-bg-color-dark);
+    padding: 5px 10px;
+} 
+
+body.light .Button {
+    background-color:var(--body-bg-color-light);
+}
