@@ -1,5 +1,14 @@
 export const projects = [
    {
+    title: "ADGES",
+    description: "Proyecto desarrollado con ReactJS como parte del Proyecto 2 - ReactJS. La aplicación simula la web corporativa de una empresa de administración de fincas, con diseño responsive y funcionalidades completas.",
+    image: "./assets/ProyetoReact.png",
+    tech: ["HTML5", "CSS3", "JavaScript", "VITE", "React"],
+    github: "https://github.com/IgnacioP46/Proyecto2-ReactJS.git",
+    link: "https://pruebaadges.netlify.app/",
+    tipo: "proyecto"
+  },
+   {
     title: "Murmullo Records",
     description: "Murmullo Records es una tienda web de música especializada en la venta de vinilos y cassettes. El proyecto está diseñado para ofrecer una experiencia de usuario fluida y moderna, donde los clientes pueden explorar una amplia colección de discos, ver detalles de cada producto, agregar artículos al carrito y realizar compras de manera sencilla.",
     image: "./assets/proyectoFinal.png",
@@ -42,15 +51,6 @@ export const projects = [
     tech: ["HTML5", "CSS3", "JavaScript", "VITE"],
     github: "https://github.com/IgnacioP46/VITE-ColorFlipper.git",
     link: "http://127.0.0.1:5500/VITE/COLOR%20FLIPPER/color-flipper/index.html/",
-    tipo: "proyecto"
-  },
-  {
-    title: "proyecto DOM",
-    description: "Aqui vemos la misma pagina que antes, pero aqui esta montada con java unido al HTML y CSS",
-    image: "./assets/proyetoDOM.png",
-    tech: ["HTML5", "CSS3", "JavaScript"],
-    github: "https://github.com/IgnacioP46/Pr-ctica-DOM.git",
-    link: "https://discosrizos.netlify.app/",
     tipo: "proyecto"
   },
 ];
@@ -123,4 +123,5 @@ export const CVInfo = {
 };
 
 export default CVInfo;
+
 
